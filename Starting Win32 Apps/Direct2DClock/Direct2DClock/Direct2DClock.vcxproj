@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ae6e8a6d-eb3f-47a9-86c1-bd8b7dc958bc}</ProjectGuid>
-    <RootNamespace>Direct2DCircle</RootNamespace>
+    <ProjectGuid>{e73ace65-f72d-4b67-bef2-09694fd3092c}</ProjectGuid>
+    <RootNamespace>Direct2DClock</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="basewin.h" />
+    <ClInclude Include="scene.h" />
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="DeclareDPIAware.manifest" />
